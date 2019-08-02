@@ -953,7 +953,11 @@ hr {
 
 @media (max-width: 768px) {
   .checkout-right {
-    margin-top: 1.5em; } }
+    margin-top: 1.5em; }
+
+  .form-signup .form-label-group {
+    margin-bottom: 20px !important;
+    margin-top: 0 !important; } }
 @media (max-width: 425px) {
   .slide-copy p {
     font-size: 15px; }
