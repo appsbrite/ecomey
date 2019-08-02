@@ -18,14 +18,14 @@ $(function(){
     }
 });
 
-jQuery('.item-title:contains("1x")').closest('.item-details').prepend('<img src="https://sonjudan.github.io/ecomey/images/icons/icon-service-1.png" alt="">');
-jQuery('.item-title:contains("2x")').closest('.item-details').prepend('<img src="https://sonjudan.github.io/ecomey/images/icons/icon-service-2.png" alt="">');
-jQuery('.item-title:contains("3x")').closest('.item-details').prepend('<img src="https://sonjudan.github.io/ecomey/images/icons/icon-service-3.png" alt="">');
-jQuery('.item-title:contains("4x")').closest('.item-details').prepend('<img src="https://sonjudan.github.io/ecomey/images/icons/icon-service-4.png" alt="">');
-jQuery('.item-title:contains("5x")').closest('.item-details').prepend('<img src="https://sonjudan.github.io/ecomey/images/icons/icon-service-5.png" alt="">');
-jQuery('.item-title:contains("Ecomey XXL")').next().after('<img src="https://sonjudan.github.io/ecomey/images/plan-xxl.png" alt="">');
+jQuery('.item-title:contains("1x")').closest('.item-details').prepend('<img src="https://appsbrite.github.io/ecomey/images/icons/icon-service-1.png" alt="">');
+jQuery('.item-title:contains("2x")').closest('.item-details').prepend('<img src="https://appsbrite.github.io/ecomey/images/icons/icon-service-2.png" alt="">');
+jQuery('.item-title:contains("3x")').closest('.item-details').prepend('<img src="https://appsbrite.github.io/ecomey/images/icons/icon-service-3.png" alt="">');
+jQuery('.item-title:contains("4x")').closest('.item-details').prepend('<img src="https://appsbrite.github.io/ecomey/images/icons/icon-service-4.png" alt="">');
+jQuery('.item-title:contains("5x")').closest('.item-details').prepend('<img src="https://appsbrite.github.io/ecomey/images/icons/icon-service-5.png" alt="">');
+jQuery('.item-title:contains("Ecomey XXL")').next().after('<img src="https://appsbrite.github.io/ecomey/images/plan-xxl.png" alt="">');
 jQuery('.item-title:contains("Ecomey XXL")').closest('.item-details').prepend('<span class="label label-primary">Upgrade</span>');
 
-jQuery('#stripe_method + .custom-control-label .d-flex ').prepend('<div class="payment-stripe-logo"><img src="https://sonjudan.github.io/ecomey/images/logo-stripe.svg" alt=""></div>');
+jQuery('#stripe_method + .custom-control-label .d-flex ').prepend('<div class="payment-stripe-logo"><img src="https://appsbrite.github.io/ecomey/images/logo-stripe.svg" alt=""></div>');
 
 
