@@ -18,7 +18,6 @@ $(function(){
     }
 });
 
-
 jQuery('.item-title:contains("1x")').closest('.item-details').prepend('<img src="http://cki.lmweb.com.au/images/icons/icon-service-1.png" alt="">');
 jQuery('.item-title:contains("2x")').closest('.item-details').prepend('<img src="http://cki.lmweb.com.au/images/icons/icon-service-2.png" alt="">');
 jQuery('.item-title:contains("3x")').closest('.item-details').prepend('<img src="http://cki.lmweb.com.au/images/icons/icon-service-3.png" alt="">');
