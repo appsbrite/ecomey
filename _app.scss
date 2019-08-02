@@ -1,0 +1,157 @@
+$font-heading : 'Roboto Slab', serif;
+$font-heading-color : #212529;
+$font-body : 'Open Sans', sans-serif;
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html, body {overflow-x: hidden;}
+body {
+  background-color: #f4f5f8;
+  font-size: 15px;
+}
+
+.content {
+  padding: 2rem 1rem;
+}
+
+
+body, html {
+  height: 100%;
+  font-family: $font-body!important;
+
+}
+
+
+/*---------------------------------------------*/
+
+a {
+  color: #666666;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+
+  &:focus {
+    outline: none !important;
+  }
+
+  &:hover {
+    text-decoration: none;
+    color: #333333;
+  }
+}
+
+/*---------------------------------------------*/
+
+.h1, h1,
+.h2, h2,
+.h3, h3,
+.h4, h4,
+.h5, h5,
+.h6, h6 {
+  margin: 0px;
+  font-family: $font-heading;
+  margin-bottom: 16px;
+  font-weight: 400;
+  color: #212529;
+  letter-spacing: -.4px;
+}
+
+
+.h2, h2 {
+  font-size: 25px;
+}
+
+p {
+  margin-bottom: 12px;
+}
+
+ul, li {
+  margin: 0px;
+  list-style-type: none;
+}
+
+/*---------------------------------------------*/
+
+input {
+  outline: none;
+  border: none;
+}
+
+textarea {
+  outline: none;
+  border: none;
+}
+
+textarea:focus, input:focus {
+  border-color: transparent !important;
+}
+
+input::-webkit-input-placeholder { color: #999999;}
+input:-moz-placeholder { color: #999999;}
+input::-moz-placeholder { color: #999999;}
+input:-ms-input-placeholder { color: #999999;}
+
+textarea::-webkit-input-placeholder { color: #999999;}
+textarea:-moz-placeholder { color: #999999;}
+textarea::-moz-placeholder { color: #999999;}
+textarea:-ms-input-placeholder { color: #999999;}
+
+/*---------------------------------------------*/
+
+button {
+  outline: none !important;
+  border: none;
+  background: transparent;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+iframe {
+  border: none !important;
+}
+
+
+.btn {
+  font-weight: 700;
+}
+
+
+/*---------------------------------------------*/
+
+.sidebar .sidebar-sticky i {
+  opacity: 1;
+}
+
+.sidebar .sidebar-sticky .title {
+  color: #fff;
+  opacity: .8;
+  font-weight: 800;
+}
+
+
+/*---------------------------------------------*/
+
+.owl-carousel {
+  display: none;
+}
+.no-js .owl-carousel {
+  display: block;
+}
+.owl-carousel.owl-loaded {
+  display: block;
+}
+
+/*---------------------------------------------*/
+
+.bootstrap-select.btn-group .dropdown-menu a.dropdown-item {
+  font-weight: 700;
+  font-size: 19px;
+}
