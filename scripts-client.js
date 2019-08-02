@@ -3,7 +3,7 @@ $(function(){
     switch (pathnameArr[2]) {
         case 'xxl':
             $("body").addClass('upgrade-plan');
-            $('.item-cards.optgroup .row').prepend('<div class="col-lg-6"> <div class="item-wrapper disabled"> <label for="field_3_0" class="item-details"> <span class="label">Current Plan</span> <div class="item-title">Ecomey Starter</div><div class="item-price"> <div class="default-price">&nbsp;</div></div><img src="images/plan-starter.png" alt=""> <div class="item-description"> <ul> <li>Pay-as-you-go pricing</li><li>$20 per design</li><li>$10 per revision</li><li>Native source files included</li><li>No subscription or any extras</li></ul> </div></label> </div></div>');
+            $('.item-cards.optgroup .row').prepend('<div class="col-lg-6"> <div class="item-wrapper disabled"> <label for="field_3_0" class="item-details"> <span class="label">Current Plan</span> <div class="item-title">Ecomey Starter</div><div class="item-price"> <div class="default-price">&nbsp;</div></div><img src="https://appsbrite.github.io/ecomey/images/plan-starter.png" alt=""> <div class="item-description"> <ul> <li>Pay-as-you-go pricing</li><li>$20 per design</li><li>$10 per revision</li><li>Native source files included</li><li>No subscription or any extras</li></ul> </div></label> </div></div>');
             $(".checkout-btn .btn, .title-float").html('Upgrade to ecomey XXL');
 
             break;
