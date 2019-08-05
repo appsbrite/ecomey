@@ -912,6 +912,12 @@ form.search-table {
 .page-header {
   margin-bottom: 12px; }
 
+.btn-starter-request {
+  display: none; }
+
+.modal-body .help-block {
+  display: none; }
+
 .text-teal {
   color: #22ccc5; }
 

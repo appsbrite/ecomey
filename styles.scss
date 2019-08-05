@@ -1298,7 +1298,15 @@ form.search-table {
   margin-bottom: 12px;
 }
 
+.btn-starter-request {
+  display: none;
+}
 
+.modal-body {
+  .help-block {
+    display: none;
+  }
+}
 
 // SERVICES TABLE END
 
