@@ -933,12 +933,16 @@ hr {
 .hide {
   display: none; }
 
+.form-holder-order-info .btn-primary {
+  padding: 12px;
+  margin-top: 1em;
+  font-size: 16px; }
+
 .order-design .form-group-lg[data-field="5"] {
   background-color: transparent;
   padding: 0; }
 
-.formbuilder-form .form-group:first-child,
-.form-group-lg[data-field="1"],
+.form-holder-order-info .form-group-lg[data-field="4"],
 .revision-design .form-group-lg[data-field="4"],
 .order-design .form-group-lg[data-field="13"],
 .order-design .form-group-lg[data-field="118"],
@@ -948,7 +952,8 @@ hr {
   padding-top: 24px;
   border-radius: 5px 5px 0 0; }
 
-.formbuilder-form .form-group:la-child,
+.form-holder-order-info .form-group-lg[data-field="6"],
+.formbuilder-form .form-group:last-child,
 .form-group-lg[data-field="2"],
 .revision-design .form-group-lg[data-field="6"],
 .order-design .form-group-lg[data-field="38"],
