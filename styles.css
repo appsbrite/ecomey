@@ -952,8 +952,7 @@ hr {
   padding-top: 24px;
   border-radius: 5px 5px 0 0; }
 
-.form-holder-order-info .form-group-lg[data-field="6"],
-.formbuilder-form .form-group:last-child,
+.form-holder-order-info .form-group-lg[data-field="9"],
 .form-group-lg[data-field="2"],
 .revision-design .form-group-lg[data-field="6"],
 .order-design .form-group-lg[data-field="38"],
