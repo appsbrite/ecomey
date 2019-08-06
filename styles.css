@@ -877,7 +877,7 @@ fieldset > div:first-child h2 {
     padding: 1rem;
     border: 0;
     font-size: 15px; }
-  .table-holder .table td a {
+  .table-holder .table td a:not(.btn) {
     font-weight: 600;
     color: #1cb4ae; }
   .table-holder .table-striped tbody tr:nth-of-type(odd) {
