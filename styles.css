@@ -937,6 +937,7 @@ hr {
   background-color: transparent;
   padding: 0; }
 
+.formbuilder-form .form-group:first-child,
 .form-group-lg[data-field="1"],
 .revision-design .form-group-lg[data-field="4"],
 .order-design .form-group-lg[data-field="13"],
@@ -947,6 +948,7 @@ hr {
   padding-top: 24px;
   border-radius: 5px 5px 0 0; }
 
+.formbuilder-form .form-group:la-child,
 .form-group-lg[data-field="2"],
 .revision-design .form-group-lg[data-field="6"],
 .order-design .form-group-lg[data-field="38"],
