@@ -19,10 +19,11 @@ $(function(){
 });
 
 jQuery('.orderform fieldset .item-cards .row:nth-child(1) .col-lg-4:nth-child(1) .item-details').prepend('<img src="https://appsbrite.github.io/ecomey/images/icons/icon-service-1.png" alt="">');
-jQuery('.item-title:contains("2x")').closest('.item-details').prepend('<img src="https://appsbrite.github.io/ecomey/images/icons/icon-service-2.png" alt="">');
-jQuery('.item-title:contains("3x")').closest('.item-details').prepend('<img src="https://appsbrite.github.io/ecomey/images/icons/icon-service-3.png" alt="">');
-jQuery('.item-title:contains("4x")').closest('.item-details').prepend('<img src="https://appsbrite.github.io/ecomey/images/icons/icon-service-4.png" alt="">');
-jQuery('.item-title:contains("5x")').closest('.item-details').prepend('<img src="https://appsbrite.github.io/ecomey/images/icons/icon-service-5.png" alt="">');
+jQuery('.orderform fieldset .item-cards .row:nth-child(1) .col-lg-4:nth-child(2) .item-details').prepend('<img src="https://appsbrite.github.io/ecomey/images/icons/icon-service-2.png" alt="">');
+jQuery('.orderform fieldset .item-cards .row:nth-child(1) .col-lg-4:nth-child(3) .item-details').prepend('<img src="https://appsbrite.github.io/ecomey/images/icons/icon-service-3.png" alt="">');
+jQuery('.orderform fieldset .item-cards .row:nth-child(2) .col-lg-4:nth-child(3) .item-details').prepend('<img src="https://appsbrite.github.io/ecomey/images/icons/icon-service-4.png" alt="">');
+jQuery('.orderform fieldset .item-cards .row:nth-child(2) .col-lg-4:nth-child(3) .item-details').prepend('<img src="https://appsbrite.github.io/ecomey/images/icons/icon-service-5.png" alt="">');
+
 jQuery('.item-title:contains("Ecomey XXL")').next().after('<img src="https://appsbrite.github.io/ecomey/images/plan-xxl.png" alt="">');
 jQuery('.item-title:contains("Ecomey XXL")').closest('.item-details').prepend('<span class="label label-primary">Upgrade</span>');
 
