@@ -821,6 +821,10 @@ fieldset > div:first-child h2 {
     .upgrade-plan .hero-plan-details .hero-img img {
       width: 100%; }
 
+.revision-design .checkout-btn .btn-txt-1 {
+  display: none; }
+.revision-design .checkout-btn .btn-txt-3 {
+  display: block; }
 .revision-design .orderform .item-cards.optgroup .col-lg-6 {
   width: 100%;
   flex: 0 0 100%;
@@ -943,7 +947,12 @@ hr {
   padding: 0; }
 
 .form-holder-order-info .form-group-lg[data-field="4"],
+.form-group-lg[data-field="1"],
 .revision-design .form-group-lg[data-field="4"],
+.revision-design .form-group-lg[data-field="9"],
+.revision-design .form-group-lg[data-field="12"],
+.revision-design .form-group-lg[data-field="15"],
+.revision-design .form-group-lg[data-field="23"],
 .order-design .form-group-lg[data-field="13"],
 .order-design .form-group-lg[data-field="118"],
 .order-design .form-group-lg[data-field="23"],
@@ -954,6 +963,12 @@ hr {
 
 .form-holder-order-info .form-group-lg[data-field="9"],
 .form-group-lg[data-field="2"],
+.revision-design .form-group-lg[data-field="4"],
+.revision-design .form-group-lg[data-field="6"],
+.revision-design .form-group-lg[data-field="10"],
+.revision-design .form-group-lg[data-field="13"],
+.revision-design .form-group-lg[data-field="16"],
+.revision-design .form-group-lg[data-field="24"],
 .revision-design .form-group-lg[data-field="6"],
 .order-design .form-group-lg[data-field="38"],
 .order-design .form-group-lg[data-field="37"],

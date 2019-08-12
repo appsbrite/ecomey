@@ -1141,6 +1141,18 @@ fieldset > div:first-child h2 {
 
 .revision-design {
 
+
+  .checkout-btn {
+    .btn-txt-1 {
+      display: none;
+    }
+
+    .btn-txt-3 {
+      display: block;
+    }
+  }
+
+
   .orderform {
     .item-cards.optgroup {
       .col-lg-6 {
@@ -1347,7 +1359,12 @@ hr {
   background-color: transparent;padding: 0;
 }
 .form-holder-order-info .form-group-lg[data-field="4"],
+.form-group-lg[data-field="1"],
 .revision-design .form-group-lg[data-field="4"],
+.revision-design .form-group-lg[data-field="9"],
+.revision-design .form-group-lg[data-field="12"],
+.revision-design .form-group-lg[data-field="15"],
+.revision-design .form-group-lg[data-field="23"],
 .order-design .form-group-lg[data-field="13"],
 .order-design .form-group-lg[data-field="118"],
 .order-design .form-group-lg[data-field="23"],
@@ -1359,6 +1376,12 @@ hr {
 
 .form-holder-order-info .form-group-lg[data-field="9"],
 .form-group-lg[data-field="2"],
+.revision-design .form-group-lg[data-field="4"],
+.revision-design .form-group-lg[data-field="6"],
+.revision-design .form-group-lg[data-field="10"],
+.revision-design .form-group-lg[data-field="13"],
+.revision-design .form-group-lg[data-field="16"],
+.revision-design .form-group-lg[data-field="24"],
 .revision-design .form-group-lg[data-field="6"],
 .order-design .form-group-lg[data-field="38"],
 .order-design .form-group-lg[data-field="37"],
