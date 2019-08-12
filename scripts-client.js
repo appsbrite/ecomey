@@ -18,7 +18,7 @@ $(function(){
     }
 });
 
-jQuery('.item-title:contains("1x")').closest('.item-details').prepend('<img src="https://appsbrite.github.io/ecomey/images/icons/icon-service-1.png" alt="">');
+jQuery('.orderform fieldset .item-cards .row:nth-child(1) .col-lg-4:nth-child(1) .item-details').prepend('<img src="https://appsbrite.github.io/ecomey/images/icons/icon-service-1.png" alt="">');
 jQuery('.item-title:contains("2x")').closest('.item-details').prepend('<img src="https://appsbrite.github.io/ecomey/images/icons/icon-service-2.png" alt="">');
 jQuery('.item-title:contains("3x")').closest('.item-details').prepend('<img src="https://appsbrite.github.io/ecomey/images/icons/icon-service-3.png" alt="">');
 jQuery('.item-title:contains("4x")').closest('.item-details').prepend('<img src="https://appsbrite.github.io/ecomey/images/icons/icon-service-4.png" alt="">');
